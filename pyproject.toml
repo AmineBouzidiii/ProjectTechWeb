@@ -1,0 +1,19 @@
+[project]
+name = "technologieweb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AmineBouzidiii", email = "amine.bouzidi1908@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "django==5.2.*",
+]
+
+[project.scripts]
+technologieweb = "technologieweb:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
